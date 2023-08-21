@@ -1,6 +1,6 @@
 # Spina Search
 
-Easily setup search in your Spina CMS app
+Easily setup search in your [Spina CMS](https://spinacms.com/) app.
 
 ### Install
 
