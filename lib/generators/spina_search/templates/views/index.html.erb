@@ -1,0 +1,11 @@
+<h1>Search result</h1>
+<%= render 'form' %>
+
+<%= t('spina.search.on_request', query: params[:query]) %>
+<%= t('spina.search.result', count: @pages.total_count) %>
+
+<ul>
+  <%= render partial: 'spina/search/page', collection: @pages, item: 'page' %>
+</ul>
+
+<%= paginate @pages %>

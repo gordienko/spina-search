@@ -1,0 +1,10 @@
+en:
+  spina:
+    search:
+      page:
+        title: Search results
+      on_request: Search term "%{query}",
+      result:
+        one: %{count} result found.
+        other: %{count} results found.
+        zero: did not match anything.

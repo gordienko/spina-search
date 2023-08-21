@@ -1,0 +1,12 @@
+ru:
+  spina:
+    search:
+      page:
+        title: Результаты поиска
+      on_request: По запросу "%{query}",
+      result:
+        few: найдено %{count} результата.
+        many: найдено %{count} результатов.
+        one: найден %{count} результат.
+        other: найдено %{count} результатов.
+        zero: ничего не найдено.
