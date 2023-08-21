@@ -18,4 +18,6 @@ gemspec
 
 group :development do
   gem 'rubocop-govuk', '~> 3.17'
+  gem 'i18n-tasks', '~> 1.0'
 end
+

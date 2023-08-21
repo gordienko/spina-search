@@ -1,9 +1,10 @@
+---
 ru:
   spina:
     search:
+      on_request: По запросу "%{query}",
       page:
         title: Результаты поиска
-      on_request: По запросу "%{query}",
       result:
         few: найдено %{count} результата.
         many: найдено %{count} результатов.
